@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'iconfont';
+  src: url('../fonts/iconfont.eot');
+  src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/iconfont.woff') format('woff'),
+  url('../fonts/iconfont.ttf') format('truetype'),
+  url('../fonts/iconfont.svg#iconfont') format('svg');
+}
+.login_icon, .btm_login_icon, .btm_registered, .btm_kf, .btm_recharge, .btm_Withdrawal, .btm_quota_conversion, .btm_hd{
+	font-family:"iconfont" !important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	border-color: transparent;
+    background: none;
+	color: #fff;
+}
+.login_icon:before {
+    content: "\e600";
+}
+.btm_login_icon:before, .btm_registered:before, .btm_kf:before, .btm_recharge:before, .btm_Withdrawal:before, .btm_quota_conversion:before, .btm_hd:before{
+    line-height: 1.1;
+}
+.btm_login_icon:before {
+    content: "\e603";
+}
+.btm_registered:before{
+	content: "\e621";
+}
+.btm_kf:before{
+	content: "\e663";
+}
